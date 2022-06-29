@@ -5,21 +5,24 @@
         
         text-align: center;
       }
-      <!---iframe{
-        width: 860px;
-        height:200px;
+
+     iframe{
+        width: 1000px;
+        height:270px;
         border: 0px;
       }
       #pri{
-        display: flex;
+        
         text-align:center;
         margin-left:auto;
 			  margin-right:auto;
-        width;860px;
-        height: 200px;
+        width:1000px;
+        height: 270px;
         background-ocolor: silver;
+        
       
-      }--->
+      }
+			  
 p{color:#696969;
 			    font-size:11px;
 			    
