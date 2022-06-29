@@ -4676,7 +4676,7 @@
                        let Gr = ["85","86","87","88"];
                        Gr.forEach(function(itgr){
                            if (li0015===itgr){
-                               document.getElementById("cr15").innerHTML="22";
+                               document.getElementById("15").innerHTML="22";
                            };
                        });
                    };
@@ -4932,7 +4932,7 @@
                        let Gr = ["85","86","87","88"];
                        Gr.forEach(function(itgr){
                            if (li0016===itgr){
-                               document.getElementById("cr16").innerHTML="22";
+                               document.getElementById("16").innerHTML="22";
                            };
                        });
                    };
@@ -5188,7 +5188,7 @@
                        let Gr = ["85","86","87","88"];
                        Gr.forEach(function(itgr){
                            if (li0017===itgr){
-                               document.getElementById("cr17").innerHTML="22";
+                               document.getElementById("17").innerHTML="22";
                            };
                        });
                    };
@@ -5444,7 +5444,7 @@
                        let Gr = ["85","86","87","88"];
                        Gr.forEach(function(itgr){
                            if (li0018===itgr){
-                               document.getElementById("cr18").innerHTML="22";
+                               document.getElementById("18").innerHTML="22";
                            };
                        });
                    };
@@ -5700,7 +5700,7 @@
                        let Gr = ["85","86","87","88"];
                        Gr.forEach(function(itgr){
                            if (li0019===itgr){
-                               document.getElementById("cr19").innerHTML="22";
+                               document.getElementById("19").innerHTML="22";
                            };
                        });
                    };
@@ -5956,7 +5956,7 @@
                        let Gr = ["85","86","87","88"];
                        Gr.forEach(function(itgr){
                            if (li0020===itgr){
-                               document.getElementById("cr20").innerHTML="22";
+                               document.getElementById("20").innerHTML="22";
                            };
                        });
                    };
@@ -6212,7 +6212,7 @@
                        let Gr = ["85","86","87","88"];
                        Gr.forEach(function(itgr){
                            if (li0021===itgr){
-                               document.getElementById("cr21").innerHTML="22";
+                               document.getElementById("21").innerHTML="22";
                            };
                        });
                    };
@@ -6468,7 +6468,7 @@
                        let Gr = ["85","86","87","88"];
                        Gr.forEach(function(itgr){
                            if (li0022===itgr){
-                               document.getElementById("cr22").innerHTML="22";
+                               document.getElementById("22").innerHTML="22";
                            };
                        });
                    };
@@ -6725,7 +6725,7 @@
                        let Gr = ["85","86","87","88"];
                        Gr.forEach(function(itgr){
                            if (li0023===itgr){
-                               document.getElementById("cr23").innerHTML="22";
+                               document.getElementById("23").innerHTML="22";
                            };
                        });
                    };
@@ -7803,7 +7803,7 @@
                    Gr01.forEach(function(itgr01){
                        
                        if (li0028===itgr01){
-                           document.getElementById("cr27").innerHTML="01";
+                           document.getElementById("cr28").innerHTML="01";
                        };
                    });
                    
