@@ -1,6 +1,6 @@
 <!DOCTYPE	html>
 
-<html leng="pt-br">
+<html lang="pt-br">
 
 		<head>
 
@@ -9,8 +9,11 @@
 			<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 			
 			<meta name="viewport" content="width=device-width, initial-scale=1">
+	
  <style>
       body{
+        background-image: linear-gradient(to bottom right, #5433FF,#20BDFF,#A5FECB);
+}
         width:100%;
         margin-left: 5px;
         margin-right: 5px;
@@ -18,19 +21,20 @@
         opacity: 100%;
         
         text-align: center;
-      }
+      
       
       
       iframe{
         width: 100%;
         height:200px;
-        border: none;
+        border:none;
       }
       #pri{
-        display: flex;
+        
         text-align:center;
         margin-left:auto;
 			  margin-right:auto;
+			  
         width:100%;
         
         height: 200px;
@@ -66,6 +70,7 @@ p{color:#696969;
 			        font:bold;
 			    }
 			    #nr1{
+			      
 			       position: relative;
 			        margin-top:30px;
               height:50px;
@@ -142,7 +147,7 @@ p{color:#696969;
 			        
 			    }
 			    td{
-            font-weight: bold;
+            
 			    }
 			    
 			    table{
@@ -150,8 +155,10 @@ p{color:#696969;
 			        margin-top:5px;
 			        width:100%;
 			        
+			        
+			        
 			        opacity:100%;
-              font-size: 0.5em;
+              font-size: 12px;
 			        color:#424242;
 			        
 			        
@@ -174,8 +181,10 @@ p{color:#696969;
 			        
 			    
 table {
-  border: 1px solid black;
-  border-radius: 1px;
+  border: 1px solid #696969;
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom right,#CBEEF4,#20BDFF,#C3D7E5
+  );
 }
 			    
 			    #th{
@@ -196,6 +205,7 @@ table {
 			    
 			    .table{
 			        width:90%;
+			        border: 2px solid blue;
 			        
               margin-left: auto;
 			        margin-right: auto;
@@ -210,6 +220,11 @@ table {
 			        
 			    }
 			    
+			    #tab2, #tab3, #tab5, #tab6, #tab8, #tab9{
+			      margin-left: 1px;
+			    }
+			    
+			    
 			   
 			    
 			    
@@ -217,7 +232,7 @@ table {
 			        
 			    
 			    
-			    .table .tabelas1{
+			    .tabelas1{
 			        text-align:center;
 			        
 			        margin-left: auto;
@@ -228,7 +243,7 @@ table {
 			        
               
 			    }
-          .table .tabelas2{
+          .tabelas2{
 			        text-align:center;
               
               display: flex;
@@ -238,9 +253,9 @@ table {
 			        margin-right: auto;
 			        
 			    }
-          .table .tabelas3{
+          .tabelas3{
 			        text-align:center;
-              
+              border:2px solid red;
 			        
 			        
 			       
@@ -249,6 +264,24 @@ table {
               margin-left: auto;
 			        margin-right: auto;
 			    }
+          #maxRepeat{
+            
+            margin-top: 5px;
+           position: relative;
+           color: white;
+           height: 20px;
+           border: 1px solid lightgray;
+            background-color: #FFCA28;
+            font-weight: bold;
+             
+             
+			        
+              width: 20%;
+              margin-left: auto;
+			        margin-right: auto;
+          }
+            
+          }
 
 </style>
 
@@ -278,11 +311,12 @@ table {
 		    
 		 
   
-  
+  <div id="maxRepeat">
+  </div>
   
     
         
-    <div class="table">    
+    <!---<div class="table">--->    
         
     <div class="tabelas1">
         
@@ -437,7 +471,7 @@ table {
     
     
         
-    <table id="tab1">
+    <table id="tab3">
     <tr>
     <th id="th">Prêmio</th>
     <th id="th">Milhar</th>
@@ -505,7 +539,7 @@ table {
     <!-- segunda tabela -->
     <div class="tabelas2">
     
-    <table id="tab2">
+    <table id="tab4">
     <tr>
     <th id="th">Prêmio</th>
     <th id="th">Milhar</th>
@@ -579,7 +613,7 @@ table {
     <!-- terceira div -->
     
     
-    <table id="tab1">
+    <table id="tab5">
     <tr>
     <th id="th">Prêmio</th>
     <th id="th">Milhar</th>
@@ -647,7 +681,7 @@ table {
     <!-- segunda tabela -->
     
     
-    <table id="tab2">
+    <table id="tab6">
     <tr>
     <th id="th">Prêmio</th>
     <th id="th">Milhar</th>
@@ -722,7 +756,7 @@ table {
     
     
     <div class="tabelas3">
-    <table id="tab1">
+    <table id="tab7">
     <tr>
     <th id="th">Prêmio</th>
     <th id="th">Milhar</th>
@@ -792,7 +826,7 @@ table {
     <!-- segunda tabela -->
     
     
-    <table id="tab2">
+    <table id="tab8">
     <tr>
     <th id="th">Prêmio</th>
     <th id="th">Milhar</th>
@@ -865,7 +899,7 @@ table {
     <!-- quinta div -->
     
     
-    <table id="tab1">
+    <table id="tab9">
     <tr>
     <th id="th">Prêmio</th>
     <th id="th">Milhar</th>
@@ -932,9 +966,9 @@ table {
     
      
   <div id="pri">
-   <iframe id="iframe" src="https://www.loteriasbr.com/site/home"/>
+   <iframe id="iframe" src="https://sc.elinaldooliveir.repl.co"/>
       </iframe>
-    </div>
+    <!---</div>--->
       
     
     
@@ -1706,7 +1740,10 @@ var a, b, c, d, f, g, h, j, l, m, num1, num2, o, opcao, p, q, r, s, t, u, x;
 
 
 
-           
+           let cont = 0;
+           let valor="0";
+           let maxVal;
+           let num;
            
            
            
@@ -1810,6 +1847,7 @@ var a, b, c, d, f, g, h, j, l, m, num1, num2, o, opcao, p, q, r, s, t, u, x;
                    Gr01.forEach(function(itgr01){
                        if (li001===itgr01){
                            document.getElementById("cr1").innerHTML="01";
+                           
                         
                        };
                    });
@@ -1891,6 +1929,7 @@ var a, b, c, d, f, g, h, j, l, m, num1, num2, o, opcao, p, q, r, s, t, u, x;
                        Gr.forEach(function(itgr){
                            if (li001===itgr){
                                document.getElementById("cr1").innerHTML="10";
+                              cont++;
                            };
                        });
                    };
@@ -2152,6 +2191,7 @@ var a, b, c, d, f, g, h, j, l, m, num1, num2, o, opcao, p, q, r, s, t, u, x;
                        Gr.forEach(function(itgr){
                            if (li002===itgr){
                                document.getElementById("cr2").innerHTML="10";
+                              cont++;
                            };
                        });
                    };
@@ -2413,6 +2453,7 @@ var a, b, c, d, f, g, h, j, l, m, num1, num2, o, opcao, p, q, r, s, t, u, x;
                        Gr.forEach(function(itgr){
                            if (li003===itgr){
                                document.getElementById("cr3").innerHTML="10";
+                              cont++;
                            };
                        });
                    };
@@ -2675,6 +2716,7 @@ var a, b, c, d, f, g, h, j, l, m, num1, num2, o, opcao, p, q, r, s, t, u, x;
                        Gr.forEach(function(itgr){
                            if (li004===itgr){
                                document.getElementById("cr4").innerHTML="10";
+                              cont++;
                            };
                        });
                    };
@@ -2930,6 +2972,7 @@ var a, b, c, d, f, g, h, j, l, m, num1, num2, o, opcao, p, q, r, s, t, u, x;
                        Gr.forEach(function(itgr){
                            if (li005===itgr){
                                document.getElementById("cr5").innerHTML="10";
+                              cont++;
                            };
                        });
                    };
@@ -3186,6 +3229,7 @@ var a, b, c, d, f, g, h, j, l, m, num1, num2, o, opcao, p, q, r, s, t, u, x;
                        Gr.forEach(function(itgr){
                            if (li006===itgr){
                                document.getElementById("cr6").innerHTML="10";
+                              cont++;
                            };
                        });
                    };
@@ -3442,6 +3486,7 @@ var a, b, c, d, f, g, h, j, l, m, num1, num2, o, opcao, p, q, r, s, t, u, x;
                        Gr.forEach(function(itgr){
                            if (li007===itgr){
                                document.getElementById("cr7").innerHTML="10";
+                               cont++;
                            };
                        });
                    };
@@ -3698,6 +3743,7 @@ var a, b, c, d, f, g, h, j, l, m, num1, num2, o, opcao, p, q, r, s, t, u, x;
                        Gr.forEach(function(itgr){
                            if (li008===itgr){
                                document.getElementById("cr8").innerHTML="10";
+                               cont++;
                            };
                        });
                    };
@@ -3954,6 +4000,7 @@ var a, b, c, d, f, g, h, j, l, m, num1, num2, o, opcao, p, q, r, s, t, u, x;
                        Gr.forEach(function(itgr){
                            if (li009===itgr){
                                document.getElementById("cr9").innerHTML="10";
+                               cont++;
                            };
                        });
                    };
@@ -22785,8 +22832,173 @@ function Gr14(){
             
                 };
             });
+           /* vnr listacr=[];
+            valor=document.getElementById ("cr1");
+            console.log("$$$$$$$$"+valor)*/
+            if(num1){
+              let val1=document.getElementById ("cr1").innerText;
+              let val2=document.getElementById ("cr2").innerText;
+              let val3=document.getElementById ("cr3").innerText;
+              let val4=document.getElementById ("cr4").innerText;
+              let val5=document.getElementById ("cr5").innerText;
+              let val6=document.getElementById ("cr6").innerText;
+              let val7=document.getElementById ("cr7").innerText;
+              let val8=document.getElementById ("cr8").innerText;
+              let val9=document.getElementById ("cr9").innerText;
+              
+                           //tab 2
+              let val10=document.getElementById ("cr10").innerText;
+              let val11=document.getElementById ("cr11").innerText;
+              let val12=document.getElementById ("cr12").innerText;
+              let val13=document.getElementById ("cr13").innerText;
+              let val14=document.getElementById ("cr14").innerText;
+              let val15=document.getElementById ("cr15").innerText;
+              let val16=document.getElementById ("cr16").innerText;
+              let val17=document.getElementById ("cr17").innerText;
+              let val18=document.getElementById ("cr18").innerText;
+              
+              //tab3
+              let val19=document.getElementById ("cr19").innerText;
+              let val20=document.getElementById ("cr20").innerText;
+              let val21=document.getElementById ("cr21").innerText;
+              let val22=document.getElementById ("cr22").innerText;
+              let val23=document.getElementById ("cr23").innerText;
+              let val24=document.getElementById ("cr24").innerText;
+              let val25=document.getElementById ("cr25").innerText;
+              let val26=document.getElementById ("cr26").innerText;
+              let val27=document.getElementById ("cr27").innerText;
+              
+              //tab 5
+              let val28=document.getElementById ("cr28").innerText;
+              let val29=document.getElementById ("cr29").innerText;
+              let val30=document.getElementById ("cr30").innerText;
+              let val31=document.getElementById ("cr31").innerText;
+              let val32=document.getElementById ("cr32").innerText;
+              let val33=document.getElementById ("cr33").innerText;
+              let val34=document.getElementById ("cr34").innerText;
+              let val35=document.getElementById ("cr35").innerText;
+              let val36=document.getElementById ("cr36").innerText;
+              let val37=document.getElementById ("cr37").innerText;
+              let val38=document.getElementById ("cr38").innerText;
+              let val39=document.getElementById ("cr39").innerText;
+              let val40=document.getElementById ("cr40").innerText;
+              let val41=document.getElementById ("cr41").innerText;
+              let val42=document.getElementById ("cr42").innerText;
+              let val43=document.getElementById ("cr43").innerText;
+              let val44=document.getElementById ("cr44").innerText;
+              let val45=document.getElementById ("cr45").innerText;
+              
+                           //tab 6
+              let val46=document.getElementById ("cr46").innerText;
+              let val47=document.getElementById ("cr47").innerText;
+              let val48=document.getElementById ("cr48").innerText;
+              let val49=document.getElementById ("cr49").innerText;
+              let val50=document.getElementById ("cr50").innerText;
+              let val51=document.getElementById ("cr51").innerText;
+              let val52=document.getElementById ("cr52").innerText;
+              let val53=document.getElementById ("cr53").innerText;
+              let val54=document.getElementById ("cr54").innerText;
+              
+              //tab7
+              let val55=document.getElementById ("cr55").innerText;
+              let val56=document.getElementById ("cr56").innerText;
+              let val57=document.getElementById ("cr57").innerText;
+              let val58=document.getElementById ("cr58").innerText;
+              let val59=document.getElementById ("cr59").innerText;
+              let val60=document.getElementById ("cr60").innerText;
+              let val61=document.getElementById ("cr61").innerText;
+              let val62=document.getElementById ("cr62").innerText;
+              let val63=document.getElementById ("cr63").innerText;
+              
+              //tab 8
+              let val64=document.getElementById ("cr64").innerText;
+              let val65=document.getElementById ("cr65").innerText;
+              let val66=document.getElementById ("cr66").innerText;
+              let val67=document.getElementById ("cr67").innerText;
+              let val68=document.getElementById ("cr68").innerText;
+              let val69=document.getElementById ("cr69").innerText;
+              let val70=document.getElementById ("cr70").innerText;
+              let val71=document.getElementById ("cr71").innerText;
+              let val72=document.getElementById ("cr72").innerText;
+              //tab 8
+              let val73=document.getElementById ("cr73").innerText;
+              let val74=document.getElementById ("cr74").innerText;
+              let val75=document.getElementById ("cr75").innerText;
+              let val76=document.getElementById ("cr76").innerText;
+              let val77=document.getElementById ("cr77").innerText;
+              let val78=document.getElementById ("cr78").innerText;
+              let val79=document.getElementById ("cr79").innerText;
+              let val80=document.getElementById ("cr80").innerText;
+              let val81=document.getElementById ("cr81").innerText;
+              
+              //import {innerText} from './it.js';
+              var lcr=[val1,val2,val3,
+              val4,val5,val6,val7,val8,val9,val10,val11,val12,
+              val13,val14,val15,val16,val17,val18,val19,
+              val20,val21,
+              val22,val23,val24,val25,val26,val27,val28,
+              val29,val30,
+              val31,val32,val33,
+              val34,val35,val36,val37,val38,val39,
+              val40,val41,val42,val43,val44,val45,val46,
+              val47,val48,
+              val49,val50,val51,
+              val52,val53,val54,val55,
+              val56,val57,
+              val58,val59,val60,
+              val61,val62,val63,val64,
+              val65,val66,
+              val67,val68,val69,
+              val70,val71,val72,val73,
+              val74,val75,
+              val76,val77,val78,
+              val79,val80,val81];
+              
+              function repet(){
+                let counts={};
+                lcr.forEach((count) => {
+                  counts[count]=(counts[count]||0)+1;
+                });
+                
+                maxVal=Math.max(...Object.values(counts));
+                //console.log("valor maximo  "+Object.keys(counts));
+                num=Object.keys(counts).find((key)=>counts[key]===maxVal);
+                //console.log(num+"/"+maxVal);
+                /*let tall=document.querySelectorAll('td')[2].innerText;
+                console.log("td  "+tall);*/
+              };
+              
+              repet();
+              console.log("Tab(1-2)  "+num+"/"+maxVal)
+              document.getElementById("maxRepeat").innerHTML=num+"/"+maxVal; 
+              /*console.log(repet([2,4,3,2,3,1,2,1,3,3,5]));/*
+              
+              
+              });
+              
+             /* console.log(lcr);*/
+              
+              /*console.log("valor   "+val)
+              console.log("%%%%%%%%%%%    "+cont);
+              document.getElementById("cr1").style.color='blue';
+              document.getElementById("cr1").style.background='yellow';
+              var perc,index;
+              function contador(){
+                perc=document.getElementById("tab1").innerText;
+                console.log(perc)
+                
+              }
+              contador();*/
+             /* var tb=document.getElementById("tab1");
+              var qtdlinhas=tb.rows.length;
+              var lina=tb.insertRow(qtdlinhas);*/
+              const nh='page';
+              const nb='home ${nh} lbr';
+              console.log(nb)
+            };
             
        };
+       
    }; 
             
 
